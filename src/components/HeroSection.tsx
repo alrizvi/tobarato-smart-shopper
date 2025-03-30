@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <div className="pt-28 pb-16 bg-gradient-to-br from-primary/10 to-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-10 md:mb-0">
+        <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="md:w-1/2 md:pr-6 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral mb-4 font-poppins leading-tight">
               Compra más <span className="text-primary">inteligente</span>,
               <br /> ahorra más <span className="text-secondary">dinero</span>
@@ -51,7 +51,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 flex justify-center md:justify-end relative">
+          <div className="md:w-1/2 flex justify-center md:justify-center relative">
             <img
               src="/phone-mockup.png"
               alt="App To' Barato"
